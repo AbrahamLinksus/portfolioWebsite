@@ -4,15 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/output.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+      .font-luckiest {
+        font-family: "Luckiest Guy", cursive;
+      }
+      .font-sourgummy {
+        font-family: "Sour Gummy", sans-serif;
+      }
+    </style>
+    <title>jakePortfolio</title>
   </head>
-  <body class="bg-[#2a2a2a] flex justify-center text-white">
-    <nav class="rounded-4xl bg-[#1a1a1a] h-[30%] w-[95%] m-3 p-4">
-      <ul class="flex justify-around items-center">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contacts</a></li>
+  <body class="bg-[#1b1b1b] text-white block">
+    <nav class="rounded-4xl bg-[#1d1e1f] h-[30%] w-[95%] m-2 p-2.5">
+      <ul class="flex justify-around items-center text-2xl font-sourgummy">
+        <li
+          class="hover:text-[#5ecfff] hover:scale-120 transition duration-300 ease-in-out"
+        >
+          <a href="#">HOME</a>
+        </li>
+        <li
+          class="hover:text-[#5ecfff] hover:scale-120 transition duration-300 ease-in-out"
+        >
+          <a href="#">ABOUT</a>
+        </li>
+        <li
+          class="hover:text-[#5ecfff] hover:scale-120 transition duration-300 ease-in-out"
+        >
+          <a href="#">PROJECTS</a>
+        </li>
+        <li
+          class="hover:text-[#5ecfff] hover:scale-120 transition duration-300 ease-in-out"
+        >
+          <a href="#">CONTACTS</a>
+        </li>
       </ul>
     </nav>
+    <section class="flex flex-col items-center mt-96">
+      <div class="">
+        <h1 class="text-9xl font-luckiest">JAKE ROBERTS</h1>
+      </div>
+      <div>
+        <p class="text-[#5ecfff]">a wannabe developer</p>
+      </div>
+    </section>
   </body>
 </html>
